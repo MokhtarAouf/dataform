@@ -1,0 +1,13 @@
+{
+    "defaultSchema": "raw",
+    "assertionSchema": "dataform_assertions",
+    "warehouse": "bigquery",
+    "defaultDatabase": "dataform-certification",
+    "defaultLocation": "US",
+    "dataformCoreVersion": "3.0.0",
+    "vars":{
+        "execution_date": "2024-02-09",
+        "country":"US"
+    }
+}
+

@@ -1,0 +1,6 @@
+config {
+  type: "declaration",
+  database: "dataform-certification",
+  schema: "raw",
+  name: "drinks",
+}

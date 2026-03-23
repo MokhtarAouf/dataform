@@ -1,0 +1,10 @@
+{
+
+    "name": "dataform-gcp",
+     "dataformCoreVersion": "3.0.0",
+    "dependencies": {
+        "@dataform/core":"3.0.0",
+        "dataform-scd":"https://github.com/dataform-co/dataform-scd/archive/0.3.tar.gz"
+    }
+}    
+
