@@ -1,0 +1,9 @@
+config {
+    type: "table",
+    schema: "dataform"
+
+}
+SELECT *,
+'${dataform.projectConfig.vars.country}' as country
+FROM ${ref("v_drinks")}
+WHERE execution_date='${dataform.projectConfig.vars.execution_date}'

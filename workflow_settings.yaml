@@ -1,4 +1,0 @@
-defaultProject: dataform-certification
-defaultDataset: raw
-defaultAssertionDataset: dataform_assertions
-dataformCoreVersion: 3.0.42

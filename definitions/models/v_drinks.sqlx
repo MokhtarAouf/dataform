@@ -1,0 +1,14 @@
+config {
+  type: "view",
+  schema: "dataform"
+}
+
+SELECT
+  DISTINCT drink_id,
+  drink_name,
+  drink_type,
+  '${dataform.projectConfig.vars.execution_date}' as execution_date,
+   '${dataform.projectConfig.vars.country}' as country
+
+
+FROM  ${ref("drinks")}
